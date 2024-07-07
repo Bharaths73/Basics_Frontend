@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="SignUp.css"/>
+</head>
+<body>
+    <div class="main_div">
+        <div class="wrapper" id="navbar_div">
+            
+        </div>
+
+        <div class="wrapper" id="wrapper_alter">
+            <form class="signup_form">
+                <div class="input_box">
+                    <label for="firstName">First Name</label>
+                    <div class="wrap_input">
+                    <input type="text" id="firstName" placeholder="Enter First Name" required/>
+                    </div>
+                </div>
+        
+                <div  class="input_box">
+                    <label for="lastName">Last Name</label>
+                    <div class="wrap_input">
+                        <input type="text" id="lastName" placeholder="Enter Last Name" required/>
+                    </div>
+                </div>
+        
+                <div  class="input_box">
+                    <label for="email">Email</label>
+                    <div class="wrap_input">
+                     <input type="mail" id="email" placeholder="Enter Email" required/>
+                    </div>
+                </div>
+        
+                <div  class="input_box">
+                    <label for="password">Password
+                    <span class="error">*</span></label>
+                        <input type="text" id="password" placeholder="Enter Password" required/>
+                </div>
+        
+                <div  class="input_box">
+                    <label for="confirmPassword">Confirm Password<span class="error">*</span></label>
+                        <input type="text" id="confirmPassword" placeholder="Confirm Password" required/>
+                </div>
+        
+                <div class="signup_button">
+                    <button id="signup_btn1" type="submit">
+                        Sign Up
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+ 
+<script src="SignUp.js"></script>
+</body>
+</html>

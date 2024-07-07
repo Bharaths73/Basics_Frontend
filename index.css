@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main_div{
+    width:100vw;
+    height: 100vh;
+}
+
+.wrapper{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.website_name{
+    scale: (1.2);
+    letter-spacing: 0.2rem;
+}
+
+#wrapper_alter{
+    background-color: #33363D;
+    height: 100vh;
+    justify-content: center;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+}
+
+#login_btn, #signup_btn, .login_btn1,#signup_btn1{
+    background-color: yellow;
+    padding-top: 0.7em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom:0.7em ;
+    color: black;
+    font-size: 1.2em;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
